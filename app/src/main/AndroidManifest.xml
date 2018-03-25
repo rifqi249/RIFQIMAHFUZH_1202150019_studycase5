@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.rifqi.rifqimahfuzh_1202150019_studycase5">
+    package="com.example.catur.catur_1202152171_studycase5">
 
     <application
         android:allowBackup="true"
@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name="com.example.rifqi.rifqimahfuzh_1202150019_studycase5.Awal"
+            android:name="com.example.catur.catur_1202152171_studycase5.Awal"
             android:label="To Do List">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -18,10 +18,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.example.rifqi.rifqimahfuzh_1202150019_studycase5.Todo" />
-        <activity android:name="com.example.rifqi.rifqimahfuzh_1202150019_studycase5.Setting"
+        <activity android:name="com.example.catur.catur_1202152171_studycase5.Todo" />
+        <activity android:name="com.example.catur.catur_1202152171_studycase5.Setting"
             android:label="Setting"
-            android:parentActivityName="com.example.rifqi.rifqimahfuzh_1202150019_studycase5.Awal">
+            android:parentActivityName="com.example.catur.catur_1202152171_studycase5.Awal">
         </activity>
     </application>
 

@@ -5,7 +5,7 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.rifqi.rifqimahfuzh_1202150019_studycase5.Todo">
+    tools:context="com.example.catur.catur_1202152171_studycase5.Todo">
 
     <LinearLayout
         android:padding="10dp"

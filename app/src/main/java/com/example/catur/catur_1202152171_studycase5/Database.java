@@ -1,4 +1,4 @@
-package com.example.rifqi.rifqimahfuzh_1202150019_studycase5;
+package com.example.catur.catur_1202152171_studycase5;
 
 
 import android.content.ContentValues;
@@ -12,7 +12,7 @@ import java.util.ArrayList;
 public class Database extends SQLiteOpenHelper {
     Context context;
     SQLiteDatabase data;
-    public static final String nama_db = "tmandroid.db";
+    public static final String nama_db = "studycase5.db";
     public static final String nama_table = "Todo";
     public static final String kolom1 = "judul";
     public static final String kolom2 = "deskripsi";

@@ -10,19 +10,23 @@
         android:padding="10dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
+
         <TextView
             android:id="@+id/todorv"
-            android:textSize="30dp"
-            android:text="Judul"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:text="Judul"
+            android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+            android:textSize="30dp"
+            android:textColor="#ffffff"/>
         <TextView
             android:id="@+id/descrv"
             android:textSize="18dp"
             android:text="dimana"
             android:layout_below="@id/todorv"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"    />
 
         <LinearLayout
             android:layout_alignParentRight="true"
@@ -34,7 +38,8 @@
                 android:layout_gravity="center_horizontal"
                 android:text="Priority"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content"
+                android:textColor="#ffffff"/>
             <TextView
                 android:textStyle="bold"
                 android:text="5"
@@ -42,7 +47,8 @@
                 android:textSize="25dp"
                 android:layout_gravity="center_horizontal"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content"
+                android:textColor="#ffffff"/>
         </LinearLayout>
     </RelativeLayout>
 

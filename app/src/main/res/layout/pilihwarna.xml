@@ -11,32 +11,33 @@
         android:orientation="vertical"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content">
-        <RadioButton
-            android:id="@+id/btn_red"
-            android:textSize="18dp"
-            android:text="Red"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
 
         <RadioButton
-            android:id="@+id/btn_lime"
+            android:id="@+id/btn_tosca"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Lime"
+            android:text="Tosca"
             android:textSize="18dp" />
 
         <RadioButton
-            android:id="@+id/btn_cyan"
+            android:id="@+id/btn_maroon"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Cyan"
+            android:text="Maroon"
             android:textSize="18dp" />
 
         <RadioButton
-            android:id="@+id/btn_standar"
+            android:id="@+id/btn_navy"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Standar"
+            android:text="Navy"
+            android:textSize="18dp" />
+
+        <RadioButton
+            android:id="@+id/btn_standart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Standart"
             android:textSize="18dp" />
     </RadioGroup>
 

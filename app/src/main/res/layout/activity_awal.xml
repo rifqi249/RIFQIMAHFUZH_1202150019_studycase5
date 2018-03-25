@@ -5,13 +5,14 @@
     android:id="@+id/root"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.rifqi.rifqimahfuzh_1202150019_studycase5.Awal">
+    tools:context="com.example.catur.catur_1202152171_studycase5.Awal">
 
     <android.support.v7.widget.RecyclerView
-        android:layout_margin="10dp"
         android:id="@+id/rv_list"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:clipToPadding="false">
 
     </android.support.v7.widget.RecyclerView>
 

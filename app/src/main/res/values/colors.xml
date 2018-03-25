@@ -3,8 +3,8 @@
     <color name="colorPrimary">#3ba7ff</color>
     <color name="colorPrimaryDark">#5161cb</color>
     <color name="colorAccent">#FF4081</color>
-    <color name="standar">#ffffff</color>
-    <color name="merah">#ff3030</color>
-    <color name="lime">#e4fa66</color>
-    <color name="cyan">#03e8f9</color>
+    <color name="standart">#afa6a6</color>
+    <color name="tosca">#0afff3</color>
+    <color name="maroon">#800000</color>
+    <color name="navy">#000080</color>
 </resources>

@@ -1,4 +1,4 @@
-package com.example.rifqi.rifqimahfuzh_1202150019_studycase5;
+package com.example.catur.catur_1202152171_studycase5;
 
 import android.content.DialogInterface;
 import android.content.Intent;
@@ -27,7 +27,7 @@ public class Setting extends AppCompatActivity {
         SharedPreferences shp = getApplicationContext().getSharedPreferences("shp", 0);
         edit = shp.edit();
         color = findViewById(R.id.warna);
-        wrn = shp.getInt("background", R.color.standar);
+        wrn = shp.getInt("background", R.color.standart);
 
         color.setText(getWarna(wrn));
     }
@@ -47,25 +47,25 @@ public class Setting extends AppCompatActivity {
     }
 
     public String getWarna(int i){
-        if (i==R.color.lime){
-            return "Lime";
-        }else if (i==R.color.merah){
-            return "Merah";
-        }else if (i==R.color.cyan){
-            return "Cyan";
+        if (i==R.color.maroon){
+            return "Maroon";
+        }else if (i==R.color.tosca){
+            return "Tosca";
+        }else if (i==R.color.navy){
+            return "Navy";
         }else{
-            return "Standar";
+            return "Standart";
         }
     }
     public int getIntColor(int i){
-        if (i==R.color.lime){
-            return R.id.btn_lime;
-        }else if (i==R.color.merah){
-            return R.id.btn_red;
-        }else if (i==R.color.cyan){
-            return R.id.btn_cyan;
+        if (i==R.color.maroon){
+            return R.id.btn_maroon;
+        }else if (i==R.color.tosca){
+            return R.id.btn_tosca;
+        }else if (i==R.color.navy){
+            return R.id.btn_navy;
         }else {
-            return R.id.btn_standar;
+            return R.id.btn_standart;
         }
     }
 
@@ -82,17 +82,17 @@ public class Setting extends AppCompatActivity {
             public void onClick(DialogInterface dialogInterface, int i) {
               int cek = rg.getCheckedRadioButtonId();
               switch (cek){
-                  case R.id.btn_lime:
-                    wrn = R.color.lime;
+                  case R.id.btn_maroon:
+                    wrn = R.color.maroon;
                   break;
-                  case R.id.btn_cyan:
-                      wrn = R.color.cyan;
+                  case R.id.btn_navy:
+                      wrn = R.color.navy;
                       break;
-                  case R.id.btn_red:
-                      wrn = R.color.merah;
+                  case R.id.btn_tosca:
+                      wrn = R.color.tosca;
                       break;
-                  case R.id.btn_standar:
-                      wrn = R.color.standar;
+                  case R.id.btn_standart:
+                      wrn = R.color.standart;
                       break;
               }
               color.setText(getWarna(wrn));

@@ -1,4 +1,4 @@
-package com.example.rifqi.rifqimahfuzh_1202150019_studycase5;
+package com.example.catur.catur_1202152171_studycase5;
 
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -31,7 +31,7 @@ public class Awal extends AppCompatActivity {
         db.getAllItem(listitem);
 
         SharedPreferences shp = this.getApplicationContext().getSharedPreferences("shp", 0);
-        int warna = shp.getInt("background", R.color.standar);
+        int warna = shp.getInt("background", R.color.standart);
 
         adapter = new adapter(this, listitem, warna);
         rv.setHasFixedSize(true);
